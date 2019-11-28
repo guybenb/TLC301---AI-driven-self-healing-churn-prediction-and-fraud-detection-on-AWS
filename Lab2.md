@@ -1,5 +1,4 @@
 
-
 ** Overview
 
 There are several AWS services that implement anomaly detection and could be used to combat fraud, but lets focus on the following three:
