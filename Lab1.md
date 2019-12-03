@@ -50,6 +50,7 @@ It will also route the call to a Expert/Default queue once there is an incoming 
 * click on 'Introduction to Applying Machine Learning'
 * click on the'use' button next to `xgboost_customer_churn.ipynb`
 ![image](https://user-images.githubusercontent.com/39404214/68398082-17771f80-016c-11ea-95dc-186cbe95e8bd.png)
+* Create a copy in your home directory
 * select `Conda_python3` as your kernel
 * go through the SageMaker notebook
 * point to your S3 bucket where the sample dataset will be downloaded to.
