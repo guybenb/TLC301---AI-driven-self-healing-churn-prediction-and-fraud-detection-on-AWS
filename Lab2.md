@@ -147,7 +147,7 @@ Next, build out anomaly detection using Amazon QuickSight. To get started, follo
 
 Under visual types, choose Line chart.
 Drag call_service_duration to the Value field well.
-Drag timestamp_new to the X axis field well.
+Drag date to the X axis field well.
 
 Amazon QuickSight generates a dashboard, as in the following screenshot.
 
