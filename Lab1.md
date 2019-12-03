@@ -82,7 +82,7 @@ Once the model will be deployed and an endpoint will be created , we can move to
 * click on 'create function'
 * copy the following lambda function to the console: Makesure you put the end point generated in SageMaker
 
-```python
+```
 import os
 import io
 import boto3
@@ -99,6 +99,13 @@ def lambda_handler(event, context):
     response = runtime.invoke_endpoint(EndpointName='xgboost-2019-03-22-11-38-32-449',
                                        ContentType='text/csv',
                                        Body=payload)
+    print(response)
+    result = json.loads(response['Body'].read().decode())
+    print(result)
+    pred = result
+    #predicted_label = 'Churn' if pred>0.80 else 'Not Churn'
+    predicted_label = {'predicted_label': 'Churn' if pred >0.80 else 'Not Churn'}
+    return predicted_label
 ```
 
 * save 
