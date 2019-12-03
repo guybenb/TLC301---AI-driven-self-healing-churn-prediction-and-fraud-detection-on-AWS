@@ -56,7 +56,7 @@ It will also route the call to a Expert/Default queue once there is an incoming 
 
 ![image](https://user-images.githubusercontent.com/39404214/68398323-7472d580-016c-11ea-8f08-2d0777698fc9.png)
 
-* you can now click on the 'Cell' tab and then select 'Run All' :
+* you can now click on the 'Cell' tab. Run upto Step 17
 
 ![image](https://user-images.githubusercontent.com/39404214/68398566-dfbca780-016c-11ea-997b-618a304a4a3d.png)
 
