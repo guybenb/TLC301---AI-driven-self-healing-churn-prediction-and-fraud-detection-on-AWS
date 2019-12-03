@@ -80,7 +80,7 @@ Once the model will be deployed and an endpoint will be created , we can move to
 * make sure your lambda function has permission to invoke sagemaker endpoint 
 ![image](https://user-images.githubusercontent.com/39404214/69729998-2fb0dd80-111f-11ea-86b3-1c673e48d3a3.png)
 * click on 'create function'
-* copy the following lambda function to the console:
+* copy the following lambda function to the console: Makesure you put the end point generated in SageMaker
 
 ```python
 import os
